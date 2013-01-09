@@ -6,6 +6,6 @@ domain-check-class
 useage:
  
  require_once("whois.class.php"); 
- $whois = new maxWhois();
+ $whois = new domainCheck();
  //?submitBtn=on&domain=standi&top_com=true&top_ir=true
  $whois->processWhois();
